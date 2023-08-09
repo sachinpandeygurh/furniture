@@ -3,7 +3,7 @@ import { FaFacebook, FaYoutube, FaTwitter, FaInstagram, FaPinterest } from 'reac
 
 const Footer = () => {
   return (
-    <>
+    <div className="position-relative">
     <div className="empty"/>
     <div className="bg-dark footer w-100 text-white pt-4">
       <div className="container px-3"> 
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 };
 
