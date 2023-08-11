@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+}
+
+@font-face {
+  font-family: "Sans-serif";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+}
+
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .topnav{
   background: #EEEEEE;
+}
+nav{
+    transition: all 3s ease !important;
+  
 }
 .footer{
   position: absolute;
@@ -21,5 +35,44 @@ body{
 background-color: #EEEEEE;
 }
 .f-img{
+  justify-items: center;
+}
+.textRightBorder{
+  border-left: 1px solid black;
+}
+.uper-Content{
+  left: 37%;
+    margin-top: -53em;
+    position: absolute;
+    z-index: 9;
+}
+
+.cardtextarea p , .cardtextareaChild{
+  display: none !important;
+  transition: all ease  4s!important;
+}
+/* .imgparent img {
+ overflow: hidden !important;
+
+}
+.imgparent:hover img {
+ overflow: hidden !important;
+ opacity:.8 ;
+ width: 300px !important;
+ background-color: black !important;
+
+} */
+.cardtextarea:hover p {
+display: block !important;
+}
+
+.cardtextarea:hover .cardtextareaChild {
+  display: flex !important;
+}
+
+.design{
+  height: 25em;
+  background:url("https://i0.wp.com/www.marcpridmore.com/wp-content/uploads/2020/11/Interior_Design_Materials.jpg");
+  display: grid;
   justify-items: center;
 }

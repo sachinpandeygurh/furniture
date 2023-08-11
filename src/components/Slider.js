@@ -4,7 +4,7 @@ import React from "react";
 const Slider = ({ srcImg }) => {
 
   return (
-    <CCarousel>
+    <CCarousel controls className="z-index-1">
       <CCarouselItem>
         <CImage className="d-block w-100" src={srcImg} alt="slide 1" />
       </CCarouselItem>
