@@ -5,7 +5,7 @@ import "react-awesome-slider/dist/styles.css";
 import { CardImg, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FaHeart, FaInstagram, FaPlayCircle } from "react-icons/fa";
-import BottonCard from "./main/BottonCard";
+import BottomCard from "./main/BottomCard";
 import VideoControl from "./main/VideoControl";
 import AboutMain from "./main/AboutMain";
 import DesignServices from "./main/DesignServices";
@@ -83,7 +83,7 @@ const Main = () => {
           let idx = low;
           low++;
           return (
-            <BottonCard
+            <BottomCard
               imgAlt={index}
               imgSrc={imgSrc}
               imgText={arr[idx]}
